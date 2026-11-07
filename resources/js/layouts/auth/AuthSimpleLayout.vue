@@ -24,11 +24,20 @@ defineProps<{
                         <span class="sr-only">{{ title }}</span>
                     </Link>
                     <div class="space-y-1 text-center">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+                        <span
+                            class="text-xs font-semibold tracking-wider text-emerald-600 uppercase dark:text-emerald-400"
+                        >
                             Nusantara Carbon MRV
                         </span>
-                        <h1 class="text-xl font-bold tracking-tight text-foreground">{{ title }}</h1>
-                        <p v-if="description" class="text-center text-xs text-muted-foreground">
+                        <h1
+                            class="text-xl font-bold tracking-tight text-foreground"
+                        >
+                            {{ title }}
+                        </h1>
+                        <p
+                            v-if="description"
+                            class="text-center text-xs text-muted-foreground"
+                        >
                             {{ description }}
                         </p>
                     </div>

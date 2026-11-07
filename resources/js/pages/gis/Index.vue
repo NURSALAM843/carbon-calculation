@@ -12,19 +12,12 @@ import {
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import {
-    Activity,
     Calculator,
     Compass,
     Eye,
     Globe,
     Layers,
-    MapPin,
-    Maximize2,
-    Minus,
-    Plus,
     RotateCcw,
-    ShieldCheck,
-    TreePine,
 } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
 import {

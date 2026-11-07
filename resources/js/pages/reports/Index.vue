@@ -2,18 +2,11 @@
 import { Head, Link } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
 import {
-    Activity,
     Award,
-    CheckCircle2,
     Download,
     FileSpreadsheet,
-    FileText,
-    Layers,
-    MapPin,
-    Printer,
     Search,
     ShieldCheck,
-    TreePine,
 } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
 import {
@@ -219,7 +212,7 @@ defineOptions({
                         >Total Stok Diserap</CardDescription
                     >
                     <CardTitle
-                        class="tabular-nums text-2xl font-bold tracking-tight text-emerald-600 dark:text-emerald-400"
+                        class="text-2xl font-bold tracking-tight text-emerald-600 tabular-nums dark:text-emerald-400"
                     >
                         {{
                             Number(totalVerifiedCo2e).toLocaleString('id-ID', {
@@ -241,7 +234,7 @@ defineOptions({
                         >Cadangan Karbon Murni (C)</CardDescription
                     >
                     <CardTitle
-                        class="tabular-nums text-2xl font-bold tracking-tight text-teal-600 dark:text-teal-400"
+                        class="text-2xl font-bold tracking-tight text-teal-600 tabular-nums dark:text-teal-400"
                     >
                         {{
                             Number(totalVerifiedCarbon).toLocaleString(
@@ -264,7 +257,7 @@ defineOptions({
                         >Luas Lahan Terverifikasi</CardDescription
                     >
                     <CardTitle
-                        class="tabular-nums text-2xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100"
+                        class="text-2xl font-bold tracking-tight text-neutral-900 tabular-nums dark:text-neutral-100"
                     >
                         {{
                             Number(totalVerifiedArea).toLocaleString('id-ID', {
@@ -286,7 +279,7 @@ defineOptions({
                         >Kepatuhan Audit</CardDescription
                     >
                     <CardTitle
-                        class="tabular-nums text-2xl font-bold tracking-tight text-emerald-600"
+                        class="text-2xl font-bold tracking-tight text-emerald-600 tabular-nums"
                     >
                         {{ approvedCount }} / {{ totalRuns }}
                     </CardTitle>

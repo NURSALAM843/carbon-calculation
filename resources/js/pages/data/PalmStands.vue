@@ -1,29 +1,9 @@
 <script setup lang="ts">
-import { Head, Link, router } from '@inertiajs/vue3';
+import { Head, router } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
-import {
-    Activity,
-    Calendar,
-    ChevronRight,
-    CircleDot,
-    FileSpreadsheet,
-    Flame,
-    Info,
-    Layers,
-    MapPin,
-    Plus,
-    Ruler,
-    Sprout,
-    TreePine,
-} from '@lucide/vue';
+import { Layers, Plus, Sprout } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
+import { Card, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import SearchableSelect from '@/components/SearchableSelect.vue';
 

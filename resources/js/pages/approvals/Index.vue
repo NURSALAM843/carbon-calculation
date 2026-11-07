@@ -3,29 +3,16 @@ import { Head, Link, router } from '@inertiajs/vue3';
 import { ref } from 'vue';
 import {
     AlertTriangle,
-    ArrowUpRight,
-    Calendar,
     CheckCircle2,
     Clock,
     Eye,
     FileCheck2,
     History,
-    Layers,
-    MapPin,
-    ShieldAlert,
     ShieldCheck,
-    TreePine,
-    UserCheck,
     XCircle,
 } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 interface PendingRun {

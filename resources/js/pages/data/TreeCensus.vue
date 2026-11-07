@@ -1,28 +1,9 @@
 <script setup lang="ts">
 import { Head, Link, router } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
-import {
-    ChevronLeft,
-    ChevronRight,
-    CircleDot,
-    FileSpreadsheet,
-    Info,
-    Layers,
-    MapPin,
-    Plus,
-    Ruler,
-    Search,
-    TreePine,
-} from '@lucide/vue';
+import { Info, Plus, Search, TreePine } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card } from '@/components/ui/card';
 import SearchableSelect from '@/components/SearchableSelect.vue';
 
 interface TreeItem {

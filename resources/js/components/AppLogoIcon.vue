@@ -22,7 +22,12 @@ defineProps<Props>();
         aria-hidden="true"
     >
         <!-- Carbon crystal & agroforestry canopy emblem -->
-        <rect width="32" height="32" rx="7" class="fill-emerald-600 dark:fill-emerald-500" />
+        <rect
+            width="32"
+            height="32"
+            rx="7"
+            class="fill-emerald-600 dark:fill-emerald-500"
+        />
         <path
             d="M16 6L23.7942 10.5V19.5L16 24L8.20577 19.5V10.5L16 6Z"
             stroke="white"

@@ -1,28 +1,9 @@
 <script setup lang="ts">
 import { Head, Link, router } from '@inertiajs/vue3';
 import { ref } from 'vue';
-import {
-    Check,
-    CheckCircle2,
-    Copy,
-    Database,
-    FileCheck,
-    FileSpreadsheet,
-    FileText,
-    History,
-    Lock,
-    Plus,
-    ShieldCheck,
-    Upload,
-} from '@lucide/vue';
+import { Check, Copy, FileText, Lock, ShieldCheck, Upload } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 interface EvidenceItem {

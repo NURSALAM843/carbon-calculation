@@ -1,17 +1,7 @@
 <script setup lang="ts">
-import { Head, Link, router } from '@inertiajs/vue3';
+import { Head, router } from '@inertiajs/vue3';
 import { ref } from 'vue';
-import {
-    ArrowUpRight,
-    Building2,
-    CheckCircle2,
-    FileSpreadsheet,
-    Globe,
-    Layers,
-    MapPin,
-    Plus,
-    TreePine,
-} from '@lucide/vue';
+import { Building2, MapPin, Plus } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
 import {
     Card,
@@ -20,10 +10,7 @@ import {
     CardHeader,
     CardTitle,
 } from '@/components/ui/card';
-import {
-    INDONESIA_PROVINCE_GROUPS,
-    PROVINCE_SELECT_GROUPS,
-} from '@/lib/carbonOptions';
+import { PROVINCE_SELECT_GROUPS } from '@/lib/carbonOptions';
 import SearchableSelect from '@/components/SearchableSelect.vue';
 import { Badge } from '@/components/ui/badge';
 

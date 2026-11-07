@@ -4,14 +4,9 @@ import {
     Activity,
     ArrowUpRight,
     Calculator,
-    CheckCircle2,
-    Clock,
-    FileSpreadsheet,
-    Flame,
     Layers,
     Leaf,
     MapPin,
-    ShieldAlert,
     Sprout,
     TreePine,
 } from '@lucide/vue';
@@ -539,7 +534,8 @@ const getStatusBadge = (status: string) => {
                         Belum ada blok tegakan kelapa sawit
                     </p>
                     <p class="text-xs">
-                        Data fase fenologi sawit akan muncul setelah blok kebun didaftarkan.
+                        Data fase fenologi sawit akan muncul setelah blok kebun
+                        didaftarkan.
                     </p>
                 </div>
                 <div
@@ -620,15 +616,29 @@ const getStatusBadge = (status: string) => {
                         <tbody class="divide-y divide-border/40">
                             <tr v-if="recent_runs.length === 0">
                                 <td colspan="6" class="py-10 text-center">
-                                    <div class="flex flex-col items-center justify-center text-muted-foreground">
-                                        <Calculator class="mb-2 size-8 text-muted-foreground/40" />
-                                        <p class="text-sm font-medium text-foreground">
+                                    <div
+                                        class="flex flex-col items-center justify-center text-muted-foreground"
+                                    >
+                                        <Calculator
+                                            class="mb-2 size-8 text-muted-foreground/40"
+                                        />
+                                        <p
+                                            class="text-sm font-medium text-foreground"
+                                        >
                                             Belum ada riwayat kalkulasi
                                         </p>
-                                        <p class="mt-0.5 max-w-sm text-xs text-muted-foreground">
-                                            Mulai hitung emisi dan stok karbon dengan memilih blok konsesi pada modul kalkulasi.
+                                        <p
+                                            class="mt-0.5 max-w-sm text-xs text-muted-foreground"
+                                        >
+                                            Mulai hitung emisi dan stok karbon
+                                            dengan memilih blok konsesi pada
+                                            modul kalkulasi.
                                         </p>
-                                        <Button as-child size="sm" class="mt-3 bg-emerald-600 hover:bg-emerald-700 text-white">
+                                        <Button
+                                            as-child
+                                            size="sm"
+                                            class="mt-3 bg-emerald-600 text-white hover:bg-emerald-700"
+                                        >
                                             <Link href="/calculations/create">
                                                 Buat Kalkulasi Baru
                                             </Link>

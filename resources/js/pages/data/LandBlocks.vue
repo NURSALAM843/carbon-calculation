@@ -1,25 +1,9 @@
 <script setup lang="ts">
 import { Head, Link, router } from '@inertiajs/vue3';
 import { computed, ref } from 'vue';
-import {
-    ChevronLeft,
-    ChevronRight,
-    Filter,
-    Layers,
-    MapPin,
-    Plus,
-    RefreshCw,
-    Search,
-    TreePine,
-} from '@lucide/vue';
+import { Filter, Layers, Plus, RefreshCw, Search } from '@lucide/vue';
 import { Button } from '@/components/ui/button';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { SOIL_TYPE_GROUPS, TOPOGRAPHY_OPTIONS } from '@/lib/carbonOptions';
 import SearchableSelect from '@/components/SearchableSelect.vue';
